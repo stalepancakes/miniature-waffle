@@ -16,8 +16,7 @@ namespace Layout.Placement
 
 	class World
 	{
-		readonly Tile[,] Grid = new Tile[10, 10];
-		readonly Item[,] GridType = new Item[10, 10];
+		readonly Grid Grid = new Grid(10, 10);
 		readonly List<V2> BusBeltEndpoints = new List<V2>();
 		readonly List<V2> BeltEndpoints = new List<V2>();
 
@@ -27,12 +26,11 @@ namespace Layout.Placement
 		}
 		internal void AddOutput(Item item)
 		{
-			for (int y = 0; y < Grid.GetLength(1); ++y)
+			for (int y = 0; y < Grid.Height; ++y)
 			{
-				if (Grid[0, y] == Tile.Empty)
+				if (Grid[0, y].Tile == Tile.Empty)
 				{
-					Grid[0, y] = Tile.Belt;
-					GridType[0, y] = item;
+					Grid[0, y] = (Tile.Belt, item);
 					BusBeltEndpoints.Add((0, y));
 					return;
 				}
@@ -68,24 +66,15 @@ namespace Layout.Placement
 
 		private bool RouteBelts()
 		{
-			Tile[,] xGrid = new Tile[10, 10];
-			Item[,] xGridType = new Item[10, 10];
-			for (int x = 0; x < 10; ++x)
-			{
-				for (int y = 0; y < 10; ++y)
-				{
-					xGrid[x, y] = Grid[x, y];
-					xGridType[x, y] = GridType[x, y];
-				}
-			}
+			var xGrid = Grid.Clone();
 
 			bool success = true;
 			foreach (var x in BusBeltEndpoints)
 			{
-				var item = GridType[x.X, x.Y];
+				var item = Grid[x].Type;
 				foreach (var e in BeltEndpoints)
 				{
-					if (GridType[e.X, e.Y] == item)
+					if (Grid[e].Type == item)
 					{
 						if (!RouteBelt(x, e, item))
 						{
@@ -100,14 +89,7 @@ namespace Layout.Placement
 				Print();
 
 		Out:
-			for (int x = 0; x < 10; ++x)
-			{
-				for (int y = 0; y < 10; ++y)
-				{
-					Grid[x, y] = xGrid[x, y];
-					GridType[x, y] = xGridType[x, y];
-				}
-			}
+			Grid.Absorb(xGrid);
 			return success;
 		}
 
@@ -124,11 +106,11 @@ namespace Layout.Placement
 				open.Remove(x);
 				visited.Add(x);
 
-				if (Grid[x.X, x.Y] == Tile.Belt && GridType[x.X, x.Y] != i)
+				if (Grid[x].Tile == Tile.Belt && Grid[x].Type != i)
 					continue;
-				else if (Grid[x.X, x.Y] == Tile.Belt && GridType[x.X, x.Y] == i)
+				else if (Grid[x].Tile == Tile.Belt && Grid[x].Type == i)
 					;
-				else if (Grid[x.X, x.Y] != Tile.Empty)
+				else if (Grid[x].Tile != Tile.Empty)
 					continue;
 
 				foreach (var o in BeltOffsets)
@@ -141,8 +123,7 @@ namespace Layout.Placement
 					{
 						do
 						{
-							Grid[x.X, x.Y] = Tile.Belt;
-							GridType[x.X, x.Y] = i;
+							Grid[x] = (Tile.Belt, i);
 							x = parent[x];
 						}
 						while (parent.ContainsKey(x));
@@ -190,7 +171,7 @@ namespace Layout.Placement
 			{
 				for (int x = 0; x < 10; ++x)
 				{
-					switch (Grid[x, y])
+					switch (Grid[x, y].Tile)
 					{
 						case Tile.Empty: Console.Write("."); break;
 						case Tile.Assembler: Console.Write("A"); break;
@@ -201,7 +182,7 @@ namespace Layout.Placement
 				Console.Write("\t");
 				for (int x = 0; x < 10; ++x)
 				{
-					switch (GridType[x, y])
+					switch (Grid[x, y].Type)
 					{
 						case Item.None: Console.Write("."); break;
 						case Item.Copper: Console.Write("c"); break;
@@ -217,10 +198,8 @@ namespace Layout.Placement
 
 		private void Undo(InserterUndo x)
 		{
-			Grid[x.Pos.X, x.Pos.Y] = Tile.Empty;
-			GridType[x.Pos.X, x.Pos.Y] = Item.None;
-			Grid[x.BeltPos.X, x.BeltPos.Y] = Tile.Empty;
-			GridType[x.BeltPos.X, x.BeltPos.Y] = Item.None;
+			Grid[x.Pos] = (Tile.Empty, Item.None);
+			Grid[x.BeltPos] = (Tile.Empty, Item.None);
 			Debug.Assert(x.BeltIndex == BeltEndpoints.Count - 1);
 			BeltEndpoints.RemoveAt(x.BeltIndex);
 		}
@@ -259,16 +238,14 @@ namespace Layout.Placement
 			var p = inserterPos.pos;
 			var bp = p + inserterPos.armOffset;
 
-			if (Grid[p.X, p.Y] != Tile.Empty || Grid[bp.X, bp.Y] != Tile.Empty)
+			if (Grid[p].Tile != Tile.Empty || Grid[p].Tile != Tile.Empty)
 			{
 				inserterUndo = new InserterUndo();
 				return false;
 			}
 
-			Grid[p.X, p.Y] = Tile.Inserter;
-			GridType[p.X, p.Y] = item;
-			Grid[bp.X, bp.Y] = Tile.Belt;
-			GridType[bp.X, bp.Y] = item;
+			Grid[p] = (Tile.Inserter, item);
+			Grid[bp] = (Tile.Belt, item);
 
 			BeltEndpoints.Add(bp);
 			inserterUndo = new InserterUndo()
@@ -287,7 +264,7 @@ namespace Layout.Placement
 			{
 				for (int y = 0; y < 3; y++)
 				{
-					if (Grid[p.X + x, p.Y + y] != Tile.Empty)
+					if (Grid[p + (x, y)].Tile != Tile.Empty)
 					{
 						return false;
 					}
@@ -298,7 +275,7 @@ namespace Layout.Placement
 			{
 				for (int y = 0; y < 3; y++)
 				{
-					Grid[p.X + x, p.Y + y] = Tile.Assembler;
+					Grid[p + (x, y)] = (Tile.Assembler, Item.None);
 				}
 			}
 
