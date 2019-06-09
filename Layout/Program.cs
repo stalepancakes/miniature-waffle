@@ -26,6 +26,10 @@ namespace Layout
 			var aG = new Assembler(bG, bCC, bI);
 
 			var w = new World();
+			w.AddInput(Item.Copper);
+			w.AddInput(Item.Iron);
+			w.AddInput(Item.Cable);
+			w.AddOutput(Item.GreenCircuit);
 			w.Generate(aG);
 
 			Console.WriteLine($"total count: {World.Count}");
