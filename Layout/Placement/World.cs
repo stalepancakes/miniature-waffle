@@ -22,31 +22,52 @@ namespace Layout.Placement
 			var visited = new HashSet<Assembler>();
 			var open = new HashSet<Assembler> { finalAssembler };
 
-			var p = (4, 4);
-			var r = Place(p, finalAssembler);
+			V2 p = (4, 4);
+			var r = PlaceAssembler(p, finalAssembler);
 			if (!r)
 			{
 				throw new Exception();
 			}
 
-			// output
-			foreach (var ip in InserterPositions(p))
+			foreach (var op in InserterPositions(p))
 			{
-				if (PlaceInserter(ip, finalAssembler.Output.Contents))
+				if (PlaceInserter(op, finalAssembler.Output.Contents))
 				{
-					Print();
-					Undo(ip);
+					foreach (var _ in PlaceInputInserters(p, finalAssembler.Inputs, 0))
+					{
+						Print();
+					}
+
+					Undo(op);
 				}
 			}
-			//PlaceInserter(p, finalAssembler.Output);
-			//foreach (var input in finalAssembler.Inputs)
-			//{
-			//	PlaceInserter(p, finalAssembler.Output)
-			//}
 		}
 
+		private IEnumerable<object> PlaceInputInserters(V2 assemblerPos, Belt[] inputs, int idx)
+		{
+			if (idx < inputs.Length)
+			{
+				foreach (var p in InserterPositions(assemblerPos))
+				{
+					if (PlaceInserter(p, inputs[idx].Contents))
+					{
+						foreach (var _ in PlaceInputInserters(assemblerPos, inputs, idx + 1))
+							yield return _;
+						Undo(p);
+					}
+				}
+			}
+			else
+			{
+				yield return null;
+			}
+		}
+
+		public static int Count = 0;
 		private void Print()
 		{
+			++Count;
+			Console.SetCursorPosition(0, 0);
 			Console.WriteLine("==");
 			for (int y = 0; y < 10; ++y)
 			{
@@ -64,53 +85,53 @@ namespace Layout.Placement
 			}
 		}
 
-		private void Undo((int x, int y) p)
+		private void Undo(V2 p)
 		{
-			Grid[p.x, p.y] = Tile.Empty;
-			GridType[p.x, p.y] = Item.None;
+			Grid[p.X, p.Y] = Tile.Empty;
+			GridType[p.X, p.Y] = Item.None;
 		}
 
-		private IEnumerable<(int, int)> InserterPositions((int x, int y) p)
+		private IEnumerable<V2> InserterPositions(V2 p)
 		{
 			for (int y = 0; y < 3; y++)
 			{
-				yield return (p.x - 1, p.y + y);
+				yield return (p.X - 1, p.Y + y);
 			}
 
 			for (int y = 0; y < 3; y++)
 			{
-				yield return (p.x + 3, p.y + y);
+				yield return (p.X + 3, p.Y + y);
 			}
 
 			for (int x = 0; x < 3; x++)
 			{
-				yield return (p.x + x, p.y - 1);
+				yield return (p.X + x, p.Y - 1);
 			}
 
 			for (int x = 0; x < 3; x++)
 			{
-				yield return (p.x + x, p.y + 3);
+				yield return (p.X + x, p.Y + 3);
 			}
 		}
 
-		private bool PlaceInserter((int x, int y) p, Item item)
+		private bool PlaceInserter(V2 p, Item item)
 		{
-			if (Grid[p.x, p.y] != Tile.Empty)
+			if (Grid[p.X, p.Y] != Tile.Empty)
 				return false;
 
-			Grid[p.x, p.y] = Tile.Inserter;
-			GridType[p.x, p.y] = item;
+			Grid[p.X, p.Y] = Tile.Inserter;
+			GridType[p.X, p.Y] = item;
 
 			return true;
 		}
 
-		private bool Place((int x, int y) p, Assembler a)
+		private bool PlaceAssembler(V2 p, Assembler _)
 		{
 			for (int x = 0; x < 3; x++)
 			{
 				for (int y = 0; y < 3; y++)
 				{
-					if (Grid[p.x + x, p.y + y] != Tile.Empty)
+					if (Grid[p.X + x, p.Y + y] != Tile.Empty)
 					{
 						return false;
 					}
@@ -121,7 +142,7 @@ namespace Layout.Placement
 			{
 				for (int y = 0; y < 3; y++)
 				{
-					Grid[p.x + x, p.y + y] = Tile.Assembler;
+					Grid[p.X + x, p.Y + y] = Tile.Assembler;
 				}
 			}
 

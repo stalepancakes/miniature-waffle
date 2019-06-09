@@ -25,10 +25,10 @@ namespace Layout
 			var aC2 = new Assembler(bCC, bC);
 			var aG = new Assembler(bG, bCC, bI);
 
-			Console.WriteLine("Hello world!");
-
 			var w = new World();
 			w.Generate(aG);
+
+			Console.WriteLine($"total count: {World.Count}");
 		}
 	}
 }
