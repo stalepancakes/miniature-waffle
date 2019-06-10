@@ -10,7 +10,10 @@ namespace Layout.Placement
 	{
 		Empty,
 		Assembler,
-		Belt,
+		Belt_Left,
+		Belt_Right,
+		Belt_Up,
+		Belt_Down,
 		Inserter
 	}
 
@@ -22,7 +25,16 @@ namespace Layout.Placement
 
 		internal void AddInput(Item item)
 		{
-			AddOutput(item);
+			for (int y = 0; y < Grid.Height; ++y)
+			{
+				if (Grid[0, y].Tile == Tile.Empty)
+				{
+					Grid[0, y] = (Tile.Belt_Right, item);
+					BusBeltEndpoints.Add((0, y));
+					return;
+				}
+			}
+			throw new Exception();
 		}
 		internal void AddOutput(Item item)
 		{
@@ -30,7 +42,7 @@ namespace Layout.Placement
 			{
 				if (Grid[0, y].Tile == Tile.Empty)
 				{
-					Grid[0, y] = (Tile.Belt, item);
+					Grid[0, y] = (Tile.Belt_Left, item);
 					BusBeltEndpoints.Add((0, y));
 					return;
 				}
@@ -106,9 +118,9 @@ namespace Layout.Placement
 				open.Remove(x);
 				visited.Add(x);
 
-				if (Grid[x].Tile == Tile.Belt && Grid[x].Type != i)
+				if (IsBelt(Grid[x].Tile) && Grid[x].Type != i)
 					continue;
-				else if (Grid[x].Tile == Tile.Belt && Grid[x].Type == i)
+				else if (IsBelt(Grid[x].Tile) && Grid[x].Type == i)
 					;
 				else if (Grid[x].Tile != Tile.Empty)
 					continue;
@@ -121,9 +133,11 @@ namespace Layout.Placement
 
 					if (ao == b)
 					{
+						var o2 = o;
 						do
 						{
-							Grid[x] = (Tile.Belt, i);
+							Grid[x] = (Belt(o2), i);
+							o2 = x - parent[x];
 							x = parent[x];
 						}
 						while (parent.ContainsKey(x));
@@ -139,6 +153,14 @@ namespace Layout.Placement
 				}
 			}
 			return false;
+		}
+
+		private bool IsBelt(Tile tile)
+		{
+			return tile == Tile.Belt_Down
+				|| tile == Tile.Belt_Up
+				|| tile == Tile.Belt_Right
+				|| tile == Tile.Belt_Left;
 		}
 
 		private IEnumerable<object> PlaceInputInserters(V2 assemblerPos, Belt[] inputs, int idx)
@@ -167,32 +189,7 @@ namespace Layout.Placement
 			++Count;
 			Console.SetCursorPosition(0, 0);
 			Console.WriteLine("==");
-			for (int y = 0; y < 10; ++y)
-			{
-				for (int x = 0; x < 10; ++x)
-				{
-					switch (Grid[x, y].Tile)
-					{
-						case Tile.Empty: Console.Write("."); break;
-						case Tile.Assembler: Console.Write("A"); break;
-						case Tile.Inserter: Console.Write("I"); break;
-						case Tile.Belt: Console.Write("B"); break;
-					}
-				}
-				Console.Write("\t");
-				for (int x = 0; x < 10; ++x)
-				{
-					switch (Grid[x, y].Type)
-					{
-						case Item.None: Console.Write("."); break;
-						case Item.Copper: Console.Write("c"); break;
-						case Item.GreenCircuit: Console.Write("G"); break;
-						case Item.Cable: Console.Write("@"); break;
-						case Item.Iron: Console.Write("i"); break;
-					}
-				}
-				Console.WriteLine("");
-			}
+			Grid.Print();
 			Console.WriteLine(string.Join(", ", BeltEndpoints));
 		}
 
@@ -245,7 +242,7 @@ namespace Layout.Placement
 			}
 
 			Grid[p] = (Tile.Inserter, item);
-			Grid[bp] = (Tile.Belt, item);
+			Grid[bp] = (Belt(inserterPos.armOffset), item);
 
 			BeltEndpoints.Add(bp);
 			inserterUndo = new InserterUndo()
@@ -256,6 +253,15 @@ namespace Layout.Placement
 			};
 
 			return true;
+		}
+
+		private Tile Belt(V2 offset)
+		{
+			if (offset.X == -1 && offset.Y ==  0) return Tile.Belt_Left;
+			if (offset.X ==  1 && offset.Y ==  0) return Tile.Belt_Right;
+			if (offset.X ==  0 && offset.Y == -1) return Tile.Belt_Up;
+			if (offset.X ==  0 && offset.Y ==  1) return Tile.Belt_Down;
+			throw new Exception();
 		}
 
 		private bool PlaceAssembler(V2 p, Assembler _)

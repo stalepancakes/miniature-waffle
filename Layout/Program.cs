@@ -1,6 +1,10 @@
 ﻿using Layout.Config;
 using Layout.Placement;
 using System;
+using System.IO;
+using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleTo("Tests")]
 
 namespace Layout
 {
@@ -8,6 +12,8 @@ namespace Layout
 	{
 		static void Main(string[] args)
 		{
+			Console.OutputEncoding = System.Text.Encoding.UTF8;
+
 			// green circuit
 			// 1.5 copper  -> 3x cable --> circuit 1x
 			//                1x iron  -'

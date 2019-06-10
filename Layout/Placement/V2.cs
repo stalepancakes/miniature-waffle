@@ -18,6 +18,7 @@ namespace Layout.Placement
 		public static V2 operator -(V2 a, V2 b) => (a.X - b.X, a.Y - b.Y);
 		public static implicit operator V2((int x, int y) v) => new V2(v.x, v.y);
 		public override string ToString() => $"({X}, {Y})";
+		public void Deconstruct(out int x, out int y) { x = X; y = Y; }
 
 		public override bool Equals(object obj) => obj is V2 v && X == v.X && Y == v.Y;
 		public override int GetHashCode() => HashCode.Combine(X, Y);
