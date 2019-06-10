@@ -1,0 +1,3764 @@
+{
+  "big-electric-pole": {
+    "IsMissingRecipe": false,
+    "Name": "big-electric-pole",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "big-electric-pole": 1.0
+    },
+    "Ingredients": {
+      "iron-stick": 8.0,
+      "steel-plate": 5.0,
+      "copper-plate": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Big electric pole",
+    "Enabled": true
+  },
+  "express-underground-belt": {
+    "IsMissingRecipe": false,
+    "Name": "express-underground-belt",
+    "Time": 2.0,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "express-underground-belt": 2.0
+    },
+    "Ingredients": {
+      "iron-gear-wheel": 80.0,
+      "fast-underground-belt": 2.0,
+      "lubricant": 40.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Express underground belt",
+    "Enabled": true
+  },
+  "long-handed-inserter": {
+    "IsMissingRecipe": false,
+    "Name": "long-handed-inserter",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "long-handed-inserter": 1.0
+    },
+    "Ingredients": {
+      "iron-gear-wheel": 1.0,
+      "iron-plate": 1.0,
+      "inserter": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Long handed inserter",
+    "Enabled": true
+  },
+  "electronic-circuit": {
+    "IsMissingRecipe": false,
+    "Name": "electronic-circuit",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "electronic-circuit": 1.0
+    },
+    "Ingredients": {
+      "iron-plate": 1.0,
+      "copper-cable": 3.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Electronic circuit",
+    "Enabled": true
+  },
+  "grenade": {
+    "IsMissingRecipe": false,
+    "Name": "grenade",
+    "Time": 8.0,
+    "Category": "crafting",
+    "Results": {
+      "grenade": 1.0
+    },
+    "Ingredients": {
+      "iron-plate": 5.0,
+      "coal": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Grenade",
+    "Enabled": true
+  },
+  "logistic-chest-buffer": {
+    "IsMissingRecipe": false,
+    "Name": "logistic-chest-buffer",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "logistic-chest-buffer": 1.0
+    },
+    "Ingredients": {
+      "steel-chest": 1.0,
+      "electronic-circuit": 3.0,
+      "advanced-circuit": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Buffer chest",
+    "Enabled": true
+  },
+  "belt-immunity-equipment": {
+    "IsMissingRecipe": false,
+    "Name": "belt-immunity-equipment",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "belt-immunity-equipment": 1.0
+    },
+    "Ingredients": {
+      "advanced-circuit": 5.0,
+      "steel-plate": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Belt immunity equipment",
+    "Enabled": true
+  },
+  "green-wire": {
+    "IsMissingRecipe": false,
+    "Name": "green-wire",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "green-wire": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 1.0,
+      "copper-cable": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Green wire",
+    "Enabled": true
+  },
+  "rail": {
+    "IsMissingRecipe": false,
+    "Name": "rail",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "rail": 2.0
+    },
+    "Ingredients": {
+      "stone": 1.0,
+      "iron-stick": 1.0,
+      "steel-plate": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": null,
+    "FriendlyName": "Rail",
+    "Enabled": true
+  },
+  "rail-chain-signal": {
+    "IsMissingRecipe": false,
+    "Name": "rail-chain-signal",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "rail-chain-signal": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 1.0,
+      "iron-plate": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Rail chain signal",
+    "Enabled": true
+  },
+  "accumulator": {
+    "IsMissingRecipe": false,
+    "Name": "accumulator",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "accumulator": 1.0
+    },
+    "Ingredients": {
+      "iron-plate": 2.0,
+      "battery": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Accumulator",
+    "Enabled": true
+  },
+  "power-armor-mk2": {
+    "IsMissingRecipe": false,
+    "Name": "power-armor-mk2",
+    "Time": 25.0,
+    "Category": "crafting",
+    "Results": {
+      "power-armor-mk2": 1.0
+    },
+    "Ingredients": {
+      "effectivity-module-2": 25.0,
+      "speed-module-2": 25.0,
+      "processing-unit": 60.0,
+      "electric-engine-unit": 40.0,
+      "low-density-structure": 30.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Power armor MK2",
+    "Enabled": true
+  },
+  "fill-heavy-oil-barrel": {
+    "IsMissingRecipe": false,
+    "Name": "fill-heavy-oil-barrel",
+    "Time": 0.2,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "heavy-oil-barrel": 1.0
+    },
+    "Ingredients": {
+      "heavy-oil": 50.0,
+      "empty-barrel": 1.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "heavy-oil-barrel",
+    "Enabled": true
+  },
+  "rocket-control-unit": {
+    "IsMissingRecipe": false,
+    "Name": "rocket-control-unit",
+    "Time": 30.0,
+    "Category": "crafting",
+    "Results": {
+      "rocket-control-unit": 1.0
+    },
+    "Ingredients": {
+      "processing-unit": 1.0,
+      "speed-module": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Rocket control unit",
+    "Enabled": true
+  },
+  "iron-gear-wheel": {
+    "IsMissingRecipe": false,
+    "Name": "iron-gear-wheel",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "iron-gear-wheel": 1.0
+    },
+    "Ingredients": {
+      "iron-plate": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Iron gear wheel",
+    "Enabled": true
+  },
+  "logistic-science-pack": {
+    "IsMissingRecipe": false,
+    "Name": "logistic-science-pack",
+    "Time": 6.0,
+    "Category": "crafting",
+    "Results": {
+      "logistic-science-pack": 1.0
+    },
+    "Ingredients": {
+      "inserter": 1.0,
+      "transport-belt": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Logistic science pack",
+    "Enabled": true
+  },
+  "speed-module-2": {
+    "IsMissingRecipe": false,
+    "Name": "speed-module-2",
+    "Time": 30.0,
+    "Category": "crafting",
+    "Results": {
+      "speed-module-2": 1.0
+    },
+    "Ingredients": {
+      "speed-module": 4.0,
+      "advanced-circuit": 5.0,
+      "processing-unit": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Speed module 2",
+    "Enabled": true
+  },
+  "atomic-bomb": {
+    "IsMissingRecipe": false,
+    "Name": "atomic-bomb",
+    "Time": 50.0,
+    "Category": "crafting",
+    "Results": {
+      "atomic-bomb": 1.0
+    },
+    "Ingredients": {
+      "rocket-control-unit": 10.0,
+      "explosives": 10.0,
+      "uranium-235": 30.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Atomic bomb",
+    "Enabled": true
+  },
+  "lubricant": {
+    "IsMissingRecipe": false,
+    "Name": "lubricant",
+    "Time": 1.0,
+    "Category": "chemistry",
+    "Results": {
+      "lubricant": 10.0
+    },
+    "Ingredients": {
+      "heavy-oil": 10.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Lubricant",
+    "Enabled": true
+  },
+  "effectivity-module": {
+    "IsMissingRecipe": false,
+    "Name": "effectivity-module",
+    "Time": 15.0,
+    "Category": "crafting",
+    "Results": {
+      "effectivity-module": 1.0
+    },
+    "Ingredients": {
+      "advanced-circuit": 5.0,
+      "electronic-circuit": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Efficiency module",
+    "Enabled": true
+  },
+  "cannon-shell": {
+    "IsMissingRecipe": false,
+    "Name": "cannon-shell",
+    "Time": 8.0,
+    "Category": "crafting",
+    "Results": {
+      "cannon-shell": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 2.0,
+      "plastic-bar": 2.0,
+      "explosives": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Cannon shell",
+    "Enabled": true
+  },
+  "production-science-pack": {
+    "IsMissingRecipe": false,
+    "Name": "production-science-pack",
+    "Time": 21.0,
+    "Category": "crafting",
+    "Results": {
+      "production-science-pack": 3.0
+    },
+    "Ingredients": {
+      "electric-furnace": 1.0,
+      "productivity-module": 1.0,
+      "rail": 30.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Production science pack",
+    "Enabled": true
+  },
+  "pipe-to-ground": {
+    "IsMissingRecipe": false,
+    "Name": "pipe-to-ground",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "pipe-to-ground": 2.0
+    },
+    "Ingredients": {
+      "pipe": 10.0,
+      "iron-plate": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Pipe to ground",
+    "Enabled": true
+  },
+  "boiler": {
+    "IsMissingRecipe": false,
+    "Name": "boiler",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "boiler": 1.0
+    },
+    "Ingredients": {
+      "stone-furnace": 1.0,
+      "pipe": 4.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Boiler",
+    "Enabled": true
+  },
+  "discharge-defense-equipment": {
+    "IsMissingRecipe": false,
+    "Name": "discharge-defense-equipment",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "discharge-defense-equipment": 1.0
+    },
+    "Ingredients": {
+      "processing-unit": 5.0,
+      "steel-plate": 20.0,
+      "laser-turret": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Discharge defense",
+    "Enabled": true
+  },
+  "refined-concrete": {
+    "IsMissingRecipe": false,
+    "Name": "refined-concrete",
+    "Time": 15.0,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "refined-concrete": 10.0
+    },
+    "Ingredients": {
+      "concrete": 20.0,
+      "iron-stick": 8.0,
+      "steel-plate": 1.0,
+      "water": 100.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Refined concrete",
+    "Enabled": true
+  },
+  "heavy-armor": {
+    "IsMissingRecipe": false,
+    "Name": "heavy-armor",
+    "Time": 8.0,
+    "Category": "crafting",
+    "Results": {
+      "heavy-armor": 1.0
+    },
+    "Ingredients": {
+      "copper-plate": 100.0,
+      "steel-plate": 50.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Heavy armor",
+    "Enabled": true
+  },
+  "storage-tank": {
+    "IsMissingRecipe": false,
+    "Name": "storage-tank",
+    "Time": 3.0,
+    "Category": "crafting",
+    "Results": {
+      "storage-tank": 1.0
+    },
+    "Ingredients": {
+      "iron-plate": 20.0,
+      "steel-plate": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Storage tank",
+    "Enabled": true
+  },
+  "electric-furnace": {
+    "IsMissingRecipe": false,
+    "Name": "electric-furnace",
+    "Time": 5.0,
+    "Category": "crafting",
+    "Results": {
+      "electric-furnace": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 10.0,
+      "advanced-circuit": 5.0,
+      "stone-brick": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Electric furnace",
+    "Enabled": true
+  },
+  "hazard-concrete": {
+    "IsMissingRecipe": false,
+    "Name": "hazard-concrete",
+    "Time": 0.25,
+    "Category": "crafting",
+    "Results": {
+      "hazard-concrete": 10.0
+    },
+    "Ingredients": {
+      "concrete": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Hazard concrete",
+    "Enabled": true
+  },
+  "poison-capsule": {
+    "IsMissingRecipe": false,
+    "Name": "poison-capsule",
+    "Time": 8.0,
+    "Category": "crafting",
+    "Results": {
+      "poison-capsule": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 3.0,
+      "electronic-circuit": 3.0,
+      "coal": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Poison capsule",
+    "Enabled": true
+  },
+  "rocket-launcher": {
+    "IsMissingRecipe": false,
+    "Name": "rocket-launcher",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "rocket-launcher": 1.0
+    },
+    "Ingredients": {
+      "iron-plate": 5.0,
+      "iron-gear-wheel": 5.0,
+      "electronic-circuit": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Rocket launcher",
+    "Enabled": true
+  },
+  "flamethrower-ammo": {
+    "IsMissingRecipe": false,
+    "Name": "flamethrower-ammo",
+    "Time": 6.0,
+    "Category": "chemistry",
+    "Results": {
+      "flamethrower-ammo": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 5.0,
+      "light-oil": 50.0,
+      "heavy-oil": 50.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Flamethrower ammo",
+    "Enabled": true
+  },
+  "defender-capsule": {
+    "IsMissingRecipe": false,
+    "Name": "defender-capsule",
+    "Time": 8.0,
+    "Category": "crafting",
+    "Results": {
+      "defender-capsule": 1.0
+    },
+    "Ingredients": {
+      "piercing-rounds-magazine": 3.0,
+      "electronic-circuit": 3.0,
+      "iron-gear-wheel": 3.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Defender capsule",
+    "Enabled": true
+  },
+  "rocket-fuel": {
+    "IsMissingRecipe": false,
+    "Name": "rocket-fuel",
+    "Time": 30.0,
+    "Category": "crafting",
+    "Results": {
+      "rocket-fuel": 1.0
+    },
+    "Ingredients": {
+      "solid-fuel": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Rocket fuel",
+    "Enabled": true
+  },
+  "lab": {
+    "IsMissingRecipe": false,
+    "Name": "lab",
+    "Time": 2.0,
+    "Category": "crafting",
+    "Results": {
+      "lab": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 10.0,
+      "iron-gear-wheel": 10.0,
+      "transport-belt": 4.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Lab",
+    "Enabled": true
+  },
+  "logistic-chest-active-provider": {
+    "IsMissingRecipe": false,
+    "Name": "logistic-chest-active-provider",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "logistic-chest-active-provider": 1.0
+    },
+    "Ingredients": {
+      "steel-chest": 1.0,
+      "electronic-circuit": 3.0,
+      "advanced-circuit": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Active provider chest",
+    "Enabled": true
+  },
+  "small-electric-pole": {
+    "IsMissingRecipe": false,
+    "Name": "small-electric-pole",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "small-electric-pole": 2.0
+    },
+    "Ingredients": {
+      "wood": 1.0,
+      "copper-cable": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Small electric pole",
+    "Enabled": true
+  },
+  "roboport": {
+    "IsMissingRecipe": false,
+    "Name": "roboport",
+    "Time": 5.0,
+    "Category": "crafting",
+    "Results": {
+      "roboport": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 45.0,
+      "iron-gear-wheel": 45.0,
+      "advanced-circuit": 45.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Roboport",
+    "Enabled": true
+  },
+  "express-transport-belt": {
+    "IsMissingRecipe": false,
+    "Name": "express-transport-belt",
+    "Time": 0.5,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "express-transport-belt": 1.0
+    },
+    "Ingredients": {
+      "iron-gear-wheel": 10.0,
+      "fast-transport-belt": 1.0,
+      "lubricant": 20.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Express transport belt",
+    "Enabled": true
+  },
+  "steel-chest": {
+    "IsMissingRecipe": false,
+    "Name": "steel-chest",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "steel-chest": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 8.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Steel chest",
+    "Enabled": true
+  },
+  "pistol": {
+    "IsMissingRecipe": false,
+    "Name": "pistol",
+    "Time": 5.0,
+    "Category": "crafting",
+    "Results": {
+      "pistol": 1.0
+    },
+    "Ingredients": {
+      "copper-plate": 5.0,
+      "iron-plate": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Pistol",
+    "Enabled": true
+  },
+  "solid-fuel-from-petroleum-gas": {
+    "IsMissingRecipe": false,
+    "Name": "solid-fuel-from-petroleum-gas",
+    "Time": 2.0,
+    "Category": "chemistry",
+    "Results": {
+      "solid-fuel": 1.0
+    },
+    "Ingredients": {
+      "petroleum-gas": 20.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Solid fuel",
+    "Enabled": true
+  },
+  "piercing-shotgun-shell": {
+    "IsMissingRecipe": false,
+    "Name": "piercing-shotgun-shell",
+    "Time": 8.0,
+    "Category": "crafting",
+    "Results": {
+      "piercing-shotgun-shell": 1.0
+    },
+    "Ingredients": {
+      "shotgun-shell": 2.0,
+      "copper-plate": 5.0,
+      "steel-plate": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Piercing shotgun shells",
+    "Enabled": true
+  },
+  "chemical-science-pack": {
+    "IsMissingRecipe": false,
+    "Name": "chemical-science-pack",
+    "Time": 24.0,
+    "Category": "crafting",
+    "Results": {
+      "chemical-science-pack": 2.0
+    },
+    "Ingredients": {
+      "engine-unit": 2.0,
+      "advanced-circuit": 3.0,
+      "solid-fuel": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Chemical science pack",
+    "Enabled": true
+  },
+  "energy-shield-equipment": {
+    "IsMissingRecipe": false,
+    "Name": "energy-shield-equipment",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "energy-shield-equipment": 1.0
+    },
+    "Ingredients": {
+      "advanced-circuit": 5.0,
+      "steel-plate": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Energy shield",
+    "Enabled": true
+  },
+  "electric-engine-unit": {
+    "IsMissingRecipe": false,
+    "Name": "electric-engine-unit",
+    "Time": 10.0,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "electric-engine-unit": 1.0
+    },
+    "Ingredients": {
+      "engine-unit": 1.0,
+      "lubricant": 15.0,
+      "electronic-circuit": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Electric engine unit",
+    "Enabled": true
+  },
+  "submachine-gun": {
+    "IsMissingRecipe": false,
+    "Name": "submachine-gun",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "submachine-gun": 1.0
+    },
+    "Ingredients": {
+      "iron-gear-wheel": 10.0,
+      "copper-plate": 5.0,
+      "iron-plate": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Submachine gun",
+    "Enabled": true
+  },
+  "solid-fuel-from-heavy-oil": {
+    "IsMissingRecipe": false,
+    "Name": "solid-fuel-from-heavy-oil",
+    "Time": 2.0,
+    "Category": "chemistry",
+    "Results": {
+      "solid-fuel": 1.0
+    },
+    "Ingredients": {
+      "heavy-oil": 20.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Solid fuel",
+    "Enabled": true
+  },
+  "firearm-magazine": {
+    "IsMissingRecipe": false,
+    "Name": "firearm-magazine",
+    "Time": 1.0,
+    "Category": "crafting",
+    "Results": {
+      "firearm-magazine": 1.0
+    },
+    "Ingredients": {
+      "iron-plate": 4.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Firearm magazine",
+    "Enabled": true
+  },
+  "wooden-chest": {
+    "IsMissingRecipe": false,
+    "Name": "wooden-chest",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "wooden-chest": 1.0
+    },
+    "Ingredients": {
+      "wood": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Wooden chest",
+    "Enabled": true
+  },
+  "personal-roboport-equipment": {
+    "IsMissingRecipe": false,
+    "Name": "personal-roboport-equipment",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "personal-roboport-equipment": 1.0
+    },
+    "Ingredients": {
+      "advanced-circuit": 10.0,
+      "iron-gear-wheel": 40.0,
+      "steel-plate": 20.0,
+      "battery": 45.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Personal roboport",
+    "Enabled": true
+  },
+  "fast-transport-belt": {
+    "IsMissingRecipe": false,
+    "Name": "fast-transport-belt",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "fast-transport-belt": 1.0
+    },
+    "Ingredients": {
+      "iron-gear-wheel": 5.0,
+      "transport-belt": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Fast transport belt",
+    "Enabled": true
+  },
+  "combat-shotgun": {
+    "IsMissingRecipe": false,
+    "Name": "combat-shotgun",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "combat-shotgun": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 15.0,
+      "iron-gear-wheel": 5.0,
+      "copper-plate": 10.0,
+      "wood": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Combat shotgun",
+    "Enabled": true
+  },
+  "empty-heavy-oil-barrel": {
+    "IsMissingRecipe": false,
+    "Name": "empty-heavy-oil-barrel",
+    "Time": 0.2,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "heavy-oil": 50.0,
+      "empty-barrel": 1.0
+    },
+    "Ingredients": {
+      "heavy-oil-barrel": 1.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "empty-heavy-oil-barrel",
+    "Enabled": true
+  },
+  "empty-water-barrel": {
+    "IsMissingRecipe": false,
+    "Name": "empty-water-barrel",
+    "Time": 0.2,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "water": 50.0,
+      "empty-barrel": 1.0
+    },
+    "Ingredients": {
+      "water-barrel": 1.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "empty-water-barrel",
+    "Enabled": true
+  },
+  "rocket-silo": {
+    "IsMissingRecipe": false,
+    "Name": "rocket-silo",
+    "Time": 30.0,
+    "Category": "crafting",
+    "Results": {
+      "rocket-silo": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 1000.0,
+      "concrete": 1000.0,
+      "pipe": 100.0,
+      "processing-unit": 200.0,
+      "electric-engine-unit": 200.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Rocket silo",
+    "Enabled": true
+  },
+  "fast-underground-belt": {
+    "IsMissingRecipe": false,
+    "Name": "fast-underground-belt",
+    "Time": 2.0,
+    "Category": "crafting",
+    "Results": {
+      "fast-underground-belt": 2.0
+    },
+    "Ingredients": {
+      "iron-gear-wheel": 40.0,
+      "underground-belt": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Fast underground belt",
+    "Enabled": true
+  },
+  "logistic-chest-passive-provider": {
+    "IsMissingRecipe": false,
+    "Name": "logistic-chest-passive-provider",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "logistic-chest-passive-provider": 1.0
+    },
+    "Ingredients": {
+      "steel-chest": 1.0,
+      "electronic-circuit": 3.0,
+      "advanced-circuit": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Passive provider chest",
+    "Enabled": true
+  },
+  "empty-light-oil-barrel": {
+    "IsMissingRecipe": false,
+    "Name": "empty-light-oil-barrel",
+    "Time": 0.2,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "light-oil": 50.0,
+      "empty-barrel": 1.0
+    },
+    "Ingredients": {
+      "light-oil-barrel": 1.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "empty-light-oil-barrel",
+    "Enabled": true
+  },
+  "cliff-explosives": {
+    "IsMissingRecipe": false,
+    "Name": "cliff-explosives",
+    "Time": 8.0,
+    "Category": "crafting",
+    "Results": {
+      "cliff-explosives": 1.0
+    },
+    "Ingredients": {
+      "explosives": 10.0,
+      "grenade": 1.0,
+      "empty-barrel": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Cliff explosives",
+    "Enabled": true
+  },
+  "fill-light-oil-barrel": {
+    "IsMissingRecipe": false,
+    "Name": "fill-light-oil-barrel",
+    "Time": 0.2,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "light-oil-barrel": 1.0
+    },
+    "Ingredients": {
+      "light-oil": 50.0,
+      "empty-barrel": 1.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "light-oil-barrel",
+    "Enabled": true
+  },
+  "empty-petroleum-gas-barrel": {
+    "IsMissingRecipe": false,
+    "Name": "empty-petroleum-gas-barrel",
+    "Time": 0.2,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "petroleum-gas": 50.0,
+      "empty-barrel": 1.0
+    },
+    "Ingredients": {
+      "petroleum-gas-barrel": 1.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "empty-petroleum-gas-barrel",
+    "Enabled": true
+  },
+  "fill-petroleum-gas-barrel": {
+    "IsMissingRecipe": false,
+    "Name": "fill-petroleum-gas-barrel",
+    "Time": 0.2,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "petroleum-gas-barrel": 1.0
+    },
+    "Ingredients": {
+      "petroleum-gas": 50.0,
+      "empty-barrel": 1.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "petroleum-gas-barrel",
+    "Enabled": true
+  },
+  "empty-sulfuric-acid-barrel": {
+    "IsMissingRecipe": false,
+    "Name": "empty-sulfuric-acid-barrel",
+    "Time": 0.2,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "sulfuric-acid": 50.0,
+      "empty-barrel": 1.0
+    },
+    "Ingredients": {
+      "sulfuric-acid-barrel": 1.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "empty-sulfuric-acid-barrel",
+    "Enabled": true
+  },
+  "express-loader": {
+    "IsMissingRecipe": false,
+    "Name": "express-loader",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "express-loader": 1.0
+    },
+    "Ingredients": {
+      "express-transport-belt": 5.0,
+      "fast-loader": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Express loader",
+    "Enabled": true
+  },
+  "fill-sulfuric-acid-barrel": {
+    "IsMissingRecipe": false,
+    "Name": "fill-sulfuric-acid-barrel",
+    "Time": 0.2,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "sulfuric-acid-barrel": 1.0
+    },
+    "Ingredients": {
+      "sulfuric-acid": 50.0,
+      "empty-barrel": 1.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "sulfuric-acid-barrel",
+    "Enabled": true
+  },
+  "personal-laser-defense-equipment": {
+    "IsMissingRecipe": false,
+    "Name": "personal-laser-defense-equipment",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "personal-laser-defense-equipment": 1.0
+    },
+    "Ingredients": {
+      "processing-unit": 20.0,
+      "low-density-structure": 5.0,
+      "laser-turret": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Personal laser defense",
+    "Enabled": true
+  },
+  "empty-lubricant-barrel": {
+    "IsMissingRecipe": false,
+    "Name": "empty-lubricant-barrel",
+    "Time": 0.2,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "lubricant": 50.0,
+      "empty-barrel": 1.0
+    },
+    "Ingredients": {
+      "lubricant-barrel": 1.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "empty-lubricant-barrel",
+    "Enabled": true
+  },
+  "constant-combinator": {
+    "IsMissingRecipe": false,
+    "Name": "constant-combinator",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "constant-combinator": 1.0
+    },
+    "Ingredients": {
+      "copper-cable": 5.0,
+      "electronic-circuit": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Constant combinator",
+    "Enabled": true
+  },
+  "artillery-turret": {
+    "IsMissingRecipe": false,
+    "Name": "artillery-turret",
+    "Time": 40.0,
+    "Category": "crafting",
+    "Results": {
+      "artillery-turret": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 60.0,
+      "concrete": 60.0,
+      "iron-gear-wheel": 40.0,
+      "advanced-circuit": 20.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Artillery turret",
+    "Enabled": true
+  },
+  "flamethrower-turret": {
+    "IsMissingRecipe": false,
+    "Name": "flamethrower-turret",
+    "Time": 20.0,
+    "Category": "crafting",
+    "Results": {
+      "flamethrower-turret": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 30.0,
+      "iron-gear-wheel": 15.0,
+      "pipe": 10.0,
+      "engine-unit": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Flamethrower turret",
+    "Enabled": true
+  },
+  "power-armor": {
+    "IsMissingRecipe": false,
+    "Name": "power-armor",
+    "Time": 20.0,
+    "Category": "crafting",
+    "Results": {
+      "power-armor": 1.0
+    },
+    "Ingredients": {
+      "processing-unit": 40.0,
+      "electric-engine-unit": 20.0,
+      "steel-plate": 40.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Power armor",
+    "Enabled": true
+  },
+  "laser-turret": {
+    "IsMissingRecipe": false,
+    "Name": "laser-turret",
+    "Time": 20.0,
+    "Category": "crafting",
+    "Results": {
+      "laser-turret": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 20.0,
+      "electronic-circuit": 20.0,
+      "battery": 12.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Laser turret",
+    "Enabled": true
+  },
+  "steam-turbine": {
+    "IsMissingRecipe": false,
+    "Name": "steam-turbine",
+    "Time": 3.0,
+    "Category": "crafting",
+    "Results": {
+      "steam-turbine": 1.0
+    },
+    "Ingredients": {
+      "iron-gear-wheel": 50.0,
+      "copper-plate": 50.0,
+      "pipe": 20.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Steam turbine",
+    "Enabled": true
+  },
+  "heat-pipe": {
+    "IsMissingRecipe": false,
+    "Name": "heat-pipe",
+    "Time": 1.0,
+    "Category": "crafting",
+    "Results": {
+      "heat-pipe": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 10.0,
+      "copper-plate": 20.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Heat pipe",
+    "Enabled": true
+  },
+  "heat-exchanger": {
+    "IsMissingRecipe": false,
+    "Name": "heat-exchanger",
+    "Time": 3.0,
+    "Category": "crafting",
+    "Results": {
+      "heat-exchanger": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 10.0,
+      "copper-plate": 100.0,
+      "pipe": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Heat exchanger",
+    "Enabled": true
+  },
+  "utility-science-pack": {
+    "IsMissingRecipe": false,
+    "Name": "utility-science-pack",
+    "Time": 21.0,
+    "Category": "crafting",
+    "Results": {
+      "utility-science-pack": 3.0
+    },
+    "Ingredients": {
+      "low-density-structure": 3.0,
+      "processing-unit": 2.0,
+      "flying-robot-frame": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Utility science pack",
+    "Enabled": true
+  },
+  "uranium-fuel-cell": {
+    "IsMissingRecipe": false,
+    "Name": "uranium-fuel-cell",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "uranium-fuel-cell": 10.0
+    },
+    "Ingredients": {
+      "iron-plate": 10.0,
+      "uranium-235": 1.0,
+      "uranium-238": 19.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Uranium fuel cell",
+    "Enabled": true
+  },
+  "nuclear-fuel-reprocessing": {
+    "IsMissingRecipe": false,
+    "Name": "nuclear-fuel-reprocessing",
+    "Time": 60.0,
+    "Category": "centrifuging",
+    "Results": {
+      "uranium-238": 3.0
+    },
+    "Ingredients": {
+      "used-up-uranium-fuel-cell": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Nuclear fuel reprocessing",
+    "Enabled": true
+  },
+  "nuclear-fuel": {
+    "IsMissingRecipe": false,
+    "Name": "nuclear-fuel",
+    "Time": 90.0,
+    "Category": "centrifuging",
+    "Results": {
+      "nuclear-fuel": 1.0
+    },
+    "Ingredients": {
+      "uranium-235": 1.0,
+      "rocket-fuel": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Nuclear fuel",
+    "Enabled": true
+  },
+  "automation-science-pack": {
+    "IsMissingRecipe": false,
+    "Name": "automation-science-pack",
+    "Time": 5.0,
+    "Category": "crafting",
+    "Results": {
+      "automation-science-pack": 1.0
+    },
+    "Ingredients": {
+      "copper-plate": 1.0,
+      "iron-gear-wheel": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Automation science pack",
+    "Enabled": true
+  },
+  "landfill": {
+    "IsMissingRecipe": false,
+    "Name": "landfill",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "landfill": 1.0
+    },
+    "Ingredients": {
+      "stone": 20.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Landfill",
+    "Enabled": true
+  },
+  "transport-belt": {
+    "IsMissingRecipe": false,
+    "Name": "transport-belt",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "transport-belt": 2.0
+    },
+    "Ingredients": {
+      "iron-plate": 1.0,
+      "iron-gear-wheel": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Transport belt",
+    "Enabled": true
+  },
+  "destroyer-capsule": {
+    "IsMissingRecipe": false,
+    "Name": "destroyer-capsule",
+    "Time": 15.0,
+    "Category": "crafting",
+    "Results": {
+      "destroyer-capsule": 1.0
+    },
+    "Ingredients": {
+      "distractor-capsule": 4.0,
+      "speed-module": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Destroyer capsule",
+    "Enabled": true
+  },
+  "energy-shield-mk2-equipment": {
+    "IsMissingRecipe": false,
+    "Name": "energy-shield-mk2-equipment",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "energy-shield-mk2-equipment": 1.0
+    },
+    "Ingredients": {
+      "energy-shield-equipment": 10.0,
+      "processing-unit": 5.0,
+      "low-density-structure": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Energy shield MK2",
+    "Enabled": true
+  },
+  "copper-plate": {
+    "IsMissingRecipe": false,
+    "Name": "copper-plate",
+    "Time": 3.2,
+    "Category": "smelting",
+    "Results": {
+      "copper-plate": 1.0
+    },
+    "Ingredients": {
+      "copper-ore": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Copper plate",
+    "Enabled": true
+  },
+  "uranium-processing": {
+    "IsMissingRecipe": false,
+    "Name": "uranium-processing",
+    "Time": 12.0,
+    "Category": "centrifuging",
+    "Results": {
+      "uranium-235": 0.007,
+      "uranium-238": 0.993
+    },
+    "Ingredients": {
+      "uranium-ore": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Uranium processing",
+    "Enabled": true
+  },
+  "cargo-wagon": {
+    "IsMissingRecipe": false,
+    "Name": "cargo-wagon",
+    "Time": 1.0,
+    "Category": "crafting",
+    "Results": {
+      "cargo-wagon": 1.0
+    },
+    "Ingredients": {
+      "iron-gear-wheel": 10.0,
+      "iron-plate": 20.0,
+      "steel-plate": 20.0
+    },
+    "IsCyclic": false,
+    "Icon": null,
+    "FriendlyName": "Cargo wagon",
+    "Enabled": true
+  },
+  "centrifuge": {
+    "IsMissingRecipe": false,
+    "Name": "centrifuge",
+    "Time": 4.0,
+    "Category": "crafting",
+    "Results": {
+      "centrifuge": 1.0
+    },
+    "Ingredients": {
+      "concrete": 100.0,
+      "steel-plate": 50.0,
+      "advanced-circuit": 100.0,
+      "iron-gear-wheel": 100.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Centrifuge",
+    "Enabled": true
+  },
+  "productivity-module-2": {
+    "IsMissingRecipe": false,
+    "Name": "productivity-module-2",
+    "Time": 30.0,
+    "Category": "crafting",
+    "Results": {
+      "productivity-module-2": 1.0
+    },
+    "Ingredients": {
+      "productivity-module": 4.0,
+      "advanced-circuit": 5.0,
+      "processing-unit": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Productivity module 2",
+    "Enabled": true
+  },
+  "nuclear-reactor": {
+    "IsMissingRecipe": false,
+    "Name": "nuclear-reactor",
+    "Time": 8.0,
+    "Category": "crafting",
+    "Results": {
+      "nuclear-reactor": 1.0
+    },
+    "Ingredients": {
+      "concrete": 500.0,
+      "steel-plate": 500.0,
+      "advanced-circuit": 500.0,
+      "copper-plate": 500.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Nuclear reactor",
+    "Enabled": true
+  },
+  "advanced-oil-processing": {
+    "IsMissingRecipe": false,
+    "Name": "advanced-oil-processing",
+    "Time": 5.0,
+    "Category": "oil-processing",
+    "Results": {
+      "heavy-oil": 10.0,
+      "light-oil": 45.0,
+      "petroleum-gas": 55.0
+    },
+    "Ingredients": {
+      "water": 50.0,
+      "crude-oil": 100.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Advanced oil processing",
+    "Enabled": true
+  },
+  "discharge-defense-remote": {
+    "IsMissingRecipe": false,
+    "Name": "discharge-defense-remote",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "discharge-defense-remote": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Discharge defense remote",
+    "Enabled": true
+  },
+  "explosive-uranium-cannon-shell": {
+    "IsMissingRecipe": false,
+    "Name": "explosive-uranium-cannon-shell",
+    "Time": 12.0,
+    "Category": "crafting",
+    "Results": {
+      "explosive-uranium-cannon-shell": 1.0
+    },
+    "Ingredients": {
+      "explosive-cannon-shell": 1.0,
+      "uranium-238": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Explosive uranium cannon shell",
+    "Enabled": true
+  },
+  "medium-electric-pole": {
+    "IsMissingRecipe": false,
+    "Name": "medium-electric-pole",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "medium-electric-pole": 1.0
+    },
+    "Ingredients": {
+      "iron-stick": 4.0,
+      "steel-plate": 2.0,
+      "copper-plate": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Medium electric pole",
+    "Enabled": true
+  },
+  "burner-inserter": {
+    "IsMissingRecipe": false,
+    "Name": "burner-inserter",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "burner-inserter": 1.0
+    },
+    "Ingredients": {
+      "iron-plate": 1.0,
+      "iron-gear-wheel": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Burner inserter",
+    "Enabled": true
+  },
+  "stone-furnace": {
+    "IsMissingRecipe": false,
+    "Name": "stone-furnace",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "stone-furnace": 1.0
+    },
+    "Ingredients": {
+      "stone": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Stone furnace",
+    "Enabled": true
+  },
+  "player-port": {
+    "IsMissingRecipe": false,
+    "Name": "player-port",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "player-port": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 10.0,
+      "iron-gear-wheel": 5.0,
+      "iron-plate": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Player port",
+    "Enabled": true
+  },
+  "electric-energy-interface": {
+    "IsMissingRecipe": false,
+    "Name": "electric-energy-interface",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "electric-energy-interface": 1.0
+    },
+    "Ingredients": {
+      "iron-plate": 2.0,
+      "electronic-circuit": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Electric energy interface",
+    "Enabled": true
+  },
+  "battery-equipment": {
+    "IsMissingRecipe": false,
+    "Name": "battery-equipment",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "battery-equipment": 1.0
+    },
+    "Ingredients": {
+      "battery": 5.0,
+      "steel-plate": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Personal battery",
+    "Enabled": true
+  },
+  "solar-panel-equipment": {
+    "IsMissingRecipe": false,
+    "Name": "solar-panel-equipment",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "solar-panel-equipment": 1.0
+    },
+    "Ingredients": {
+      "solar-panel": 1.0,
+      "advanced-circuit": 2.0,
+      "steel-plate": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Portable solar panel",
+    "Enabled": true
+  },
+  "fill-water-barrel": {
+    "IsMissingRecipe": false,
+    "Name": "fill-water-barrel",
+    "Time": 0.2,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "water-barrel": 1.0
+    },
+    "Ingredients": {
+      "water": 50.0,
+      "empty-barrel": 1.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "water-barrel",
+    "Enabled": true
+  },
+  "concrete": {
+    "IsMissingRecipe": false,
+    "Name": "concrete",
+    "Time": 10.0,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "concrete": 10.0
+    },
+    "Ingredients": {
+      "stone-brick": 5.0,
+      "iron-ore": 1.0,
+      "water": 100.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Concrete",
+    "Enabled": true
+  },
+  "artillery-wagon": {
+    "IsMissingRecipe": false,
+    "Name": "artillery-wagon",
+    "Time": 4.0,
+    "Category": "crafting",
+    "Results": {
+      "artillery-wagon": 1.0
+    },
+    "Ingredients": {
+      "engine-unit": 64.0,
+      "iron-gear-wheel": 10.0,
+      "steel-plate": 40.0,
+      "pipe": 16.0,
+      "advanced-circuit": 20.0
+    },
+    "IsCyclic": false,
+    "Icon": null,
+    "FriendlyName": "Artillery wagon",
+    "Enabled": true
+  },
+  "satellite": {
+    "IsMissingRecipe": false,
+    "Name": "satellite",
+    "Time": 5.0,
+    "Category": "crafting",
+    "Results": {
+      "satellite": 1.0
+    },
+    "Ingredients": {
+      "low-density-structure": 100.0,
+      "solar-panel": 100.0,
+      "accumulator": 100.0,
+      "radar": 5.0,
+      "processing-unit": 100.0,
+      "rocket-fuel": 50.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Satellite",
+    "Enabled": true
+  },
+  "advanced-circuit": {
+    "IsMissingRecipe": false,
+    "Name": "advanced-circuit",
+    "Time": 6.0,
+    "Category": "crafting",
+    "Results": {
+      "advanced-circuit": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 2.0,
+      "plastic-bar": 2.0,
+      "copper-cable": 4.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Advanced circuit",
+    "Enabled": true
+  },
+  "pump": {
+    "IsMissingRecipe": false,
+    "Name": "pump",
+    "Time": 2.0,
+    "Category": "crafting",
+    "Results": {
+      "pump": 1.0
+    },
+    "Ingredients": {
+      "engine-unit": 1.0,
+      "steel-plate": 1.0,
+      "pipe": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Pump",
+    "Enabled": true
+  },
+  "low-density-structure": {
+    "IsMissingRecipe": false,
+    "Name": "low-density-structure",
+    "Time": 20.0,
+    "Category": "crafting",
+    "Results": {
+      "low-density-structure": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 2.0,
+      "copper-plate": 20.0,
+      "plastic-bar": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Low density structure",
+    "Enabled": true
+  },
+  "exoskeleton-equipment": {
+    "IsMissingRecipe": false,
+    "Name": "exoskeleton-equipment",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "exoskeleton-equipment": 1.0
+    },
+    "Ingredients": {
+      "processing-unit": 10.0,
+      "electric-engine-unit": 30.0,
+      "steel-plate": 20.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Exoskeleton",
+    "Enabled": true
+  },
+  "steel-furnace": {
+    "IsMissingRecipe": false,
+    "Name": "steel-furnace",
+    "Time": 3.0,
+    "Category": "crafting",
+    "Results": {
+      "steel-furnace": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 6.0,
+      "stone-brick": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Steel furnace",
+    "Enabled": true
+  },
+  "fast-loader": {
+    "IsMissingRecipe": false,
+    "Name": "fast-loader",
+    "Time": 3.0,
+    "Category": "crafting",
+    "Results": {
+      "fast-loader": 1.0
+    },
+    "Ingredients": {
+      "fast-transport-belt": 5.0,
+      "loader": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Fast loader",
+    "Enabled": true
+  },
+  "fill-lubricant-barrel": {
+    "IsMissingRecipe": false,
+    "Name": "fill-lubricant-barrel",
+    "Time": 0.2,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "lubricant-barrel": 1.0
+    },
+    "Ingredients": {
+      "lubricant": 50.0,
+      "empty-barrel": 1.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "lubricant-barrel",
+    "Enabled": true
+  },
+  "decider-combinator": {
+    "IsMissingRecipe": false,
+    "Name": "decider-combinator",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "decider-combinator": 1.0
+    },
+    "Ingredients": {
+      "copper-cable": 5.0,
+      "electronic-circuit": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Decider combinator",
+    "Enabled": true
+  },
+  "fast-splitter": {
+    "IsMissingRecipe": false,
+    "Name": "fast-splitter",
+    "Time": 2.0,
+    "Category": "crafting",
+    "Results": {
+      "fast-splitter": 1.0
+    },
+    "Ingredients": {
+      "splitter": 1.0,
+      "iron-gear-wheel": 10.0,
+      "electronic-circuit": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Fast splitter",
+    "Enabled": true
+  },
+  "artillery-targeting-remote": {
+    "IsMissingRecipe": false,
+    "Name": "artillery-targeting-remote",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "artillery-targeting-remote": 1.0
+    },
+    "Ingredients": {
+      "processing-unit": 1.0,
+      "radar": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Artillery targeting remote",
+    "Enabled": true
+  },
+  "arithmetic-combinator": {
+    "IsMissingRecipe": false,
+    "Name": "arithmetic-combinator",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "arithmetic-combinator": 1.0
+    },
+    "Ingredients": {
+      "copper-cable": 5.0,
+      "electronic-circuit": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Arithmetic combinator",
+    "Enabled": true
+  },
+  "logistic-robot": {
+    "IsMissingRecipe": false,
+    "Name": "logistic-robot",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "logistic-robot": 1.0
+    },
+    "Ingredients": {
+      "flying-robot-frame": 1.0,
+      "advanced-circuit": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Logistic robot",
+    "Enabled": true
+  },
+  "stone-brick": {
+    "IsMissingRecipe": false,
+    "Name": "stone-brick",
+    "Time": 3.2,
+    "Category": "smelting",
+    "Results": {
+      "stone-brick": 1.0
+    },
+    "Ingredients": {
+      "stone": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Stone brick",
+    "Enabled": true
+  },
+  "stack-filter-inserter": {
+    "IsMissingRecipe": false,
+    "Name": "stack-filter-inserter",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "stack-filter-inserter": 1.0
+    },
+    "Ingredients": {
+      "stack-inserter": 1.0,
+      "electronic-circuit": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Stack filter inserter",
+    "Enabled": true
+  },
+  "substation": {
+    "IsMissingRecipe": false,
+    "Name": "substation",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "substation": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 10.0,
+      "advanced-circuit": 5.0,
+      "copper-plate": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Substation",
+    "Enabled": true
+  },
+  "underground-belt": {
+    "IsMissingRecipe": false,
+    "Name": "underground-belt",
+    "Time": 1.0,
+    "Category": "crafting",
+    "Results": {
+      "underground-belt": 2.0
+    },
+    "Ingredients": {
+      "iron-plate": 10.0,
+      "transport-belt": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Underground belt",
+    "Enabled": true
+  },
+  "assembling-machine-3": {
+    "IsMissingRecipe": false,
+    "Name": "assembling-machine-3",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "assembling-machine-3": 1.0
+    },
+    "Ingredients": {
+      "speed-module": 4.0,
+      "assembling-machine-2": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Assembling machine 3",
+    "Enabled": true
+  },
+  "chemical-plant": {
+    "IsMissingRecipe": false,
+    "Name": "chemical-plant",
+    "Time": 5.0,
+    "Category": "crafting",
+    "Results": {
+      "chemical-plant": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 5.0,
+      "iron-gear-wheel": 5.0,
+      "electronic-circuit": 5.0,
+      "pipe": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Chemical plant",
+    "Enabled": true
+  },
+  "railgun-dart": {
+    "IsMissingRecipe": false,
+    "Name": "railgun-dart",
+    "Time": 8.0,
+    "Category": "crafting",
+    "Results": {
+      "railgun-dart": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 5.0,
+      "electronic-circuit": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Railgun darts",
+    "Enabled": true
+  },
+  "iron-stick": {
+    "IsMissingRecipe": false,
+    "Name": "iron-stick",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "iron-stick": 2.0
+    },
+    "Ingredients": {
+      "iron-plate": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Iron stick",
+    "Enabled": true
+  },
+  "productivity-module": {
+    "IsMissingRecipe": false,
+    "Name": "productivity-module",
+    "Time": 15.0,
+    "Category": "crafting",
+    "Results": {
+      "productivity-module": 1.0
+    },
+    "Ingredients": {
+      "advanced-circuit": 5.0,
+      "electronic-circuit": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Productivity module",
+    "Enabled": true
+  },
+  "land-mine": {
+    "IsMissingRecipe": false,
+    "Name": "land-mine",
+    "Time": 5.0,
+    "Category": "crafting",
+    "Results": {
+      "land-mine": 4.0
+    },
+    "Ingredients": {
+      "steel-plate": 1.0,
+      "explosives": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Land mine",
+    "Enabled": true
+  },
+  "logistic-chest-requester": {
+    "IsMissingRecipe": false,
+    "Name": "logistic-chest-requester",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "logistic-chest-requester": 1.0
+    },
+    "Ingredients": {
+      "steel-chest": 1.0,
+      "electronic-circuit": 3.0,
+      "advanced-circuit": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Requester chest",
+    "Enabled": true
+  },
+  "battery": {
+    "IsMissingRecipe": false,
+    "Name": "battery",
+    "Time": 4.0,
+    "Category": "chemistry",
+    "Results": {
+      "battery": 1.0
+    },
+    "Ingredients": {
+      "sulfuric-acid": 20.0,
+      "iron-plate": 1.0,
+      "copper-plate": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Battery",
+    "Enabled": true
+  },
+  "explosives": {
+    "IsMissingRecipe": false,
+    "Name": "explosives",
+    "Time": 4.0,
+    "Category": "chemistry",
+    "Results": {
+      "explosives": 2.0
+    },
+    "Ingredients": {
+      "sulfur": 1.0,
+      "coal": 1.0,
+      "water": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Explosives",
+    "Enabled": true
+  },
+  "flying-robot-frame": {
+    "IsMissingRecipe": false,
+    "Name": "flying-robot-frame",
+    "Time": 20.0,
+    "Category": "crafting",
+    "Results": {
+      "flying-robot-frame": 1.0
+    },
+    "Ingredients": {
+      "electric-engine-unit": 1.0,
+      "battery": 2.0,
+      "steel-plate": 1.0,
+      "electronic-circuit": 3.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Flying robot frame",
+    "Enabled": true
+  },
+  "oil-refinery": {
+    "IsMissingRecipe": false,
+    "Name": "oil-refinery",
+    "Time": 8.0,
+    "Category": "crafting",
+    "Results": {
+      "oil-refinery": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 15.0,
+      "iron-gear-wheel": 10.0,
+      "stone-brick": 10.0,
+      "electronic-circuit": 10.0,
+      "pipe": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Oil refinery",
+    "Enabled": true
+  },
+  "pumpjack": {
+    "IsMissingRecipe": false,
+    "Name": "pumpjack",
+    "Time": 5.0,
+    "Category": "crafting",
+    "Results": {
+      "pumpjack": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 5.0,
+      "iron-gear-wheel": 10.0,
+      "electronic-circuit": 5.0,
+      "pipe": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Pumpjack",
+    "Enabled": true
+  },
+  "locomotive": {
+    "IsMissingRecipe": false,
+    "Name": "locomotive",
+    "Time": 4.0,
+    "Category": "crafting",
+    "Results": {
+      "locomotive": 1.0
+    },
+    "Ingredients": {
+      "engine-unit": 20.0,
+      "electronic-circuit": 10.0,
+      "steel-plate": 30.0
+    },
+    "IsCyclic": false,
+    "Icon": null,
+    "FriendlyName": "Locomotive",
+    "Enabled": true
+  },
+  "loader": {
+    "IsMissingRecipe": false,
+    "Name": "loader",
+    "Time": 1.0,
+    "Category": "crafting",
+    "Results": {
+      "loader": 1.0
+    },
+    "Ingredients": {
+      "inserter": 5.0,
+      "electronic-circuit": 5.0,
+      "iron-gear-wheel": 5.0,
+      "iron-plate": 5.0,
+      "transport-belt": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Loader",
+    "Enabled": true
+  },
+  "filter-inserter": {
+    "IsMissingRecipe": false,
+    "Name": "filter-inserter",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "filter-inserter": 1.0
+    },
+    "Ingredients": {
+      "fast-inserter": 1.0,
+      "electronic-circuit": 4.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Filter inserter",
+    "Enabled": true
+  },
+  "uranium-cannon-shell": {
+    "IsMissingRecipe": false,
+    "Name": "uranium-cannon-shell",
+    "Time": 12.0,
+    "Category": "crafting",
+    "Results": {
+      "uranium-cannon-shell": 1.0
+    },
+    "Ingredients": {
+      "cannon-shell": 1.0,
+      "uranium-238": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Uranium cannon shell",
+    "Enabled": true
+  },
+  "night-vision-equipment": {
+    "IsMissingRecipe": false,
+    "Name": "night-vision-equipment",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "night-vision-equipment": 1.0
+    },
+    "Ingredients": {
+      "advanced-circuit": 5.0,
+      "steel-plate": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Nightvision",
+    "Enabled": true
+  },
+  "basic-oil-processing": {
+    "IsMissingRecipe": false,
+    "Name": "basic-oil-processing",
+    "Time": 5.0,
+    "Category": "oil-processing",
+    "Results": {
+      "heavy-oil": 30.0,
+      "light-oil": 30.0,
+      "petroleum-gas": 40.0
+    },
+    "Ingredients": {
+      "crude-oil": 100.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Basic oil processing",
+    "Enabled": true
+  },
+  "coal-liquefaction": {
+    "IsMissingRecipe": false,
+    "Name": "coal-liquefaction",
+    "Time": 5.0,
+    "Category": "oil-processing",
+    "Results": {
+      "heavy-oil": 90.0,
+      "light-oil": 20.0,
+      "petroleum-gas": 10.0
+    },
+    "Ingredients": {
+      "coal": 10.0,
+      "heavy-oil": 25.0,
+      "steam": 50.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Coal liquefaction",
+    "Enabled": true
+  },
+  "distractor-capsule": {
+    "IsMissingRecipe": false,
+    "Name": "distractor-capsule",
+    "Time": 15.0,
+    "Category": "crafting",
+    "Results": {
+      "distractor-capsule": 1.0
+    },
+    "Ingredients": {
+      "defender-capsule": 4.0,
+      "advanced-circuit": 3.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Distractor capsule",
+    "Enabled": true
+  },
+  "power-switch": {
+    "IsMissingRecipe": false,
+    "Name": "power-switch",
+    "Time": 2.0,
+    "Category": "crafting",
+    "Results": {
+      "power-switch": 1.0
+    },
+    "Ingredients": {
+      "iron-plate": 5.0,
+      "copper-cable": 5.0,
+      "electronic-circuit": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Power switch",
+    "Enabled": true
+  },
+  "solid-fuel-from-light-oil": {
+    "IsMissingRecipe": false,
+    "Name": "solid-fuel-from-light-oil",
+    "Time": 2.0,
+    "Category": "chemistry",
+    "Results": {
+      "solid-fuel": 1.0
+    },
+    "Ingredients": {
+      "light-oil": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Solid fuel",
+    "Enabled": true
+  },
+  "refined-hazard-concrete": {
+    "IsMissingRecipe": false,
+    "Name": "refined-hazard-concrete",
+    "Time": 0.25,
+    "Category": "crafting",
+    "Results": {
+      "refined-hazard-concrete": 10.0
+    },
+    "Ingredients": {
+      "refined-concrete": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Refined hazard concrete",
+    "Enabled": true
+  },
+  "train-stop": {
+    "IsMissingRecipe": false,
+    "Name": "train-stop",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "train-stop": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 5.0,
+      "iron-plate": 6.0,
+      "iron-stick": 6.0,
+      "steel-plate": 3.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Train stop",
+    "Enabled": true
+  },
+  "logistic-chest-storage": {
+    "IsMissingRecipe": false,
+    "Name": "logistic-chest-storage",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "logistic-chest-storage": 1.0
+    },
+    "Ingredients": {
+      "steel-chest": 1.0,
+      "electronic-circuit": 3.0,
+      "advanced-circuit": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Storage chest",
+    "Enabled": true
+  },
+  "fill-crude-oil-barrel": {
+    "IsMissingRecipe": false,
+    "Name": "fill-crude-oil-barrel",
+    "Time": 0.2,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "crude-oil-barrel": 1.0
+    },
+    "Ingredients": {
+      "crude-oil": 50.0,
+      "empty-barrel": 1.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Fill crude oil barrel",
+    "Enabled": true
+  },
+  "construction-robot": {
+    "IsMissingRecipe": false,
+    "Name": "construction-robot",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "construction-robot": 1.0
+    },
+    "Ingredients": {
+      "flying-robot-frame": 1.0,
+      "electronic-circuit": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Construction robot",
+    "Enabled": true
+  },
+  "explosive-rocket": {
+    "IsMissingRecipe": false,
+    "Name": "explosive-rocket",
+    "Time": 8.0,
+    "Category": "crafting",
+    "Results": {
+      "explosive-rocket": 1.0
+    },
+    "Ingredients": {
+      "rocket": 1.0,
+      "explosives": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Explosive rocket",
+    "Enabled": true
+  },
+  "engine-unit": {
+    "IsMissingRecipe": false,
+    "Name": "engine-unit",
+    "Time": 10.0,
+    "Category": "advanced-crafting",
+    "Results": {
+      "engine-unit": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 1.0,
+      "iron-gear-wheel": 1.0,
+      "pipe": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Engine unit",
+    "Enabled": true
+  },
+  "small-plane": {
+    "IsMissingRecipe": false,
+    "Name": "small-plane",
+    "Time": 30.0,
+    "Category": "crafting",
+    "Results": {
+      "small-plane": 1.0
+    },
+    "Ingredients": {
+      "plastic-bar": 100.0,
+      "advanced-circuit": 200.0,
+      "electric-engine-unit": 20.0,
+      "battery": 100.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Small plane",
+    "Enabled": true
+  },
+  "processing-unit": {
+    "IsMissingRecipe": false,
+    "Name": "processing-unit",
+    "Time": 10.0,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "processing-unit": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 20.0,
+      "advanced-circuit": 2.0,
+      "sulfuric-acid": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Processing unit",
+    "Enabled": true
+  },
+  "battery-mk2-equipment": {
+    "IsMissingRecipe": false,
+    "Name": "battery-mk2-equipment",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "battery-mk2-equipment": 1.0
+    },
+    "Ingredients": {
+      "battery-equipment": 10.0,
+      "processing-unit": 15.0,
+      "low-density-structure": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Personal battery MK2",
+    "Enabled": true
+  },
+  "burner-mining-drill": {
+    "IsMissingRecipe": false,
+    "Name": "burner-mining-drill",
+    "Time": 2.0,
+    "Category": "crafting",
+    "Results": {
+      "burner-mining-drill": 1.0
+    },
+    "Ingredients": {
+      "iron-gear-wheel": 3.0,
+      "stone-furnace": 1.0,
+      "iron-plate": 3.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Burner mining drill",
+    "Enabled": true
+  },
+  "iron-plate": {
+    "IsMissingRecipe": false,
+    "Name": "iron-plate",
+    "Time": 3.2,
+    "Category": "smelting",
+    "Results": {
+      "iron-plate": 1.0
+    },
+    "Ingredients": {
+      "iron-ore": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Iron plate",
+    "Enabled": true
+  },
+  "rocket-part": {
+    "IsMissingRecipe": false,
+    "Name": "rocket-part",
+    "Time": 3.0,
+    "Category": "rocket-building",
+    "Results": {
+      "rocket-part": 1.0
+    },
+    "Ingredients": {
+      "rocket-control-unit": 10.0,
+      "low-density-structure": 10.0,
+      "rocket-fuel": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Rocket part",
+    "Enabled": true
+  },
+  "express-splitter": {
+    "IsMissingRecipe": false,
+    "Name": "express-splitter",
+    "Time": 2.0,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "express-splitter": 1.0
+    },
+    "Ingredients": {
+      "fast-splitter": 1.0,
+      "iron-gear-wheel": 10.0,
+      "advanced-circuit": 10.0,
+      "lubricant": 80.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Express splitter",
+    "Enabled": true
+  },
+  "stack-inserter": {
+    "IsMissingRecipe": false,
+    "Name": "stack-inserter",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "stack-inserter": 1.0
+    },
+    "Ingredients": {
+      "iron-gear-wheel": 15.0,
+      "electronic-circuit": 15.0,
+      "advanced-circuit": 1.0,
+      "fast-inserter": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Stack inserter",
+    "Enabled": true
+  },
+  "empty-crude-oil-barrel": {
+    "IsMissingRecipe": false,
+    "Name": "empty-crude-oil-barrel",
+    "Time": 0.2,
+    "Category": "crafting-with-fluid",
+    "Results": {
+      "crude-oil": 50.0,
+      "empty-barrel": 1.0
+    },
+    "Ingredients": {
+      "crude-oil-barrel": 1.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Empty crude oil barrel",
+    "Enabled": true
+  },
+  "radar": {
+    "IsMissingRecipe": false,
+    "Name": "radar",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "radar": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 5.0,
+      "iron-gear-wheel": 5.0,
+      "iron-plate": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Radar",
+    "Enabled": true
+  },
+  "small-lamp": {
+    "IsMissingRecipe": false,
+    "Name": "small-lamp",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "small-lamp": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 1.0,
+      "copper-cable": 3.0,
+      "iron-plate": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Lamp",
+    "Enabled": true
+  },
+  "assembling-machine-1": {
+    "IsMissingRecipe": false,
+    "Name": "assembling-machine-1",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "assembling-machine-1": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 3.0,
+      "iron-gear-wheel": 5.0,
+      "iron-plate": 9.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Assembling machine 1",
+    "Enabled": true
+  },
+  "piercing-rounds-magazine": {
+    "IsMissingRecipe": false,
+    "Name": "piercing-rounds-magazine",
+    "Time": 3.0,
+    "Category": "crafting",
+    "Results": {
+      "piercing-rounds-magazine": 1.0
+    },
+    "Ingredients": {
+      "firearm-magazine": 1.0,
+      "steel-plate": 1.0,
+      "copper-plate": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Piercing rounds magazine",
+    "Enabled": true
+  },
+  "military-science-pack": {
+    "IsMissingRecipe": false,
+    "Name": "military-science-pack",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "military-science-pack": 2.0
+    },
+    "Ingredients": {
+      "piercing-rounds-magazine": 1.0,
+      "grenade": 1.0,
+      "stone-wall": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Military science pack",
+    "Enabled": true
+  },
+  "heavy-oil-cracking": {
+    "IsMissingRecipe": false,
+    "Name": "heavy-oil-cracking",
+    "Time": 2.0,
+    "Category": "chemistry",
+    "Results": {
+      "light-oil": 30.0
+    },
+    "Ingredients": {
+      "water": 30.0,
+      "heavy-oil": 40.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Heavy oil cracking to light oil",
+    "Enabled": true
+  },
+  "empty-barrel": {
+    "IsMissingRecipe": false,
+    "Name": "empty-barrel",
+    "Time": 1.0,
+    "Category": "crafting",
+    "Results": {
+      "empty-barrel": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Empty barrel",
+    "Enabled": true
+  },
+  "programmable-speaker": {
+    "IsMissingRecipe": false,
+    "Name": "programmable-speaker",
+    "Time": 2.0,
+    "Category": "crafting",
+    "Results": {
+      "programmable-speaker": 1.0
+    },
+    "Ingredients": {
+      "iron-plate": 3.0,
+      "iron-stick": 4.0,
+      "copper-cable": 5.0,
+      "electronic-circuit": 4.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Programmable speaker",
+    "Enabled": true
+  },
+  "repair-pack": {
+    "IsMissingRecipe": false,
+    "Name": "repair-pack",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "repair-pack": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 2.0,
+      "iron-gear-wheel": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Repair pack",
+    "Enabled": true
+  },
+  "steel-plate": {
+    "IsMissingRecipe": false,
+    "Name": "steel-plate",
+    "Time": 16.0,
+    "Category": "smelting",
+    "Results": {
+      "steel-plate": 1.0
+    },
+    "Ingredients": {
+      "iron-plate": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Steel plate",
+    "Enabled": true
+  },
+  "fast-inserter": {
+    "IsMissingRecipe": false,
+    "Name": "fast-inserter",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "fast-inserter": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 2.0,
+      "iron-plate": 2.0,
+      "inserter": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Fast inserter",
+    "Enabled": true
+  },
+  "effectivity-module-3": {
+    "IsMissingRecipe": false,
+    "Name": "effectivity-module-3",
+    "Time": 60.0,
+    "Category": "crafting",
+    "Results": {
+      "effectivity-module-3": 1.0
+    },
+    "Ingredients": {
+      "effectivity-module-2": 5.0,
+      "advanced-circuit": 5.0,
+      "processing-unit": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Efficiency module 3",
+    "Enabled": true
+  },
+  "tank": {
+    "IsMissingRecipe": false,
+    "Name": "tank",
+    "Time": 5.0,
+    "Category": "crafting",
+    "Results": {
+      "tank": 1.0
+    },
+    "Ingredients": {
+      "engine-unit": 32.0,
+      "steel-plate": 50.0,
+      "iron-gear-wheel": 15.0,
+      "advanced-circuit": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": null,
+    "FriendlyName": "Tank",
+    "Enabled": true
+  },
+  "slowdown-capsule": {
+    "IsMissingRecipe": false,
+    "Name": "slowdown-capsule",
+    "Time": 8.0,
+    "Category": "crafting",
+    "Results": {
+      "slowdown-capsule": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 2.0,
+      "electronic-circuit": 2.0,
+      "coal": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Slowdown capsule",
+    "Enabled": true
+  },
+  "fusion-reactor-equipment": {
+    "IsMissingRecipe": false,
+    "Name": "fusion-reactor-equipment",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "fusion-reactor-equipment": 1.0
+    },
+    "Ingredients": {
+      "processing-unit": 200.0,
+      "low-density-structure": 50.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Portable fusion reactor",
+    "Enabled": true
+  },
+  "flamethrower": {
+    "IsMissingRecipe": false,
+    "Name": "flamethrower",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "flamethrower": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 5.0,
+      "iron-gear-wheel": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Flamethrower",
+    "Enabled": true
+  },
+  "steam-engine": {
+    "IsMissingRecipe": false,
+    "Name": "steam-engine",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "steam-engine": 1.0
+    },
+    "Ingredients": {
+      "iron-gear-wheel": 8.0,
+      "pipe": 5.0,
+      "iron-plate": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Steam engine",
+    "Enabled": true
+  },
+  "inserter": {
+    "IsMissingRecipe": false,
+    "Name": "inserter",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "inserter": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 1.0,
+      "iron-gear-wheel": 1.0,
+      "iron-plate": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Inserter",
+    "Enabled": true
+  },
+  "gate": {
+    "IsMissingRecipe": false,
+    "Name": "gate",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "gate": 1.0
+    },
+    "Ingredients": {
+      "stone-wall": 1.0,
+      "steel-plate": 2.0,
+      "electronic-circuit": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Gate",
+    "Enabled": true
+  },
+  "iron-chest": {
+    "IsMissingRecipe": false,
+    "Name": "iron-chest",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "iron-chest": 1.0
+    },
+    "Ingredients": {
+      "iron-plate": 8.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Iron chest",
+    "Enabled": true
+  },
+  "productivity-module-3": {
+    "IsMissingRecipe": false,
+    "Name": "productivity-module-3",
+    "Time": 60.0,
+    "Category": "crafting",
+    "Results": {
+      "productivity-module-3": 1.0
+    },
+    "Ingredients": {
+      "productivity-module-2": 5.0,
+      "advanced-circuit": 5.0,
+      "processing-unit": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Productivity module 3",
+    "Enabled": true
+  },
+  "cluster-grenade": {
+    "IsMissingRecipe": false,
+    "Name": "cluster-grenade",
+    "Time": 8.0,
+    "Category": "crafting",
+    "Results": {
+      "cluster-grenade": 1.0
+    },
+    "Ingredients": {
+      "grenade": 7.0,
+      "explosives": 5.0,
+      "steel-plate": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Cluster grenade",
+    "Enabled": true
+  },
+  "modular-armor": {
+    "IsMissingRecipe": false,
+    "Name": "modular-armor",
+    "Time": 15.0,
+    "Category": "crafting",
+    "Results": {
+      "modular-armor": 1.0
+    },
+    "Ingredients": {
+      "advanced-circuit": 30.0,
+      "steel-plate": 50.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Modular armor",
+    "Enabled": true
+  },
+  "sulfuric-acid": {
+    "IsMissingRecipe": false,
+    "Name": "sulfuric-acid",
+    "Time": 1.0,
+    "Category": "chemistry",
+    "Results": {
+      "sulfuric-acid": 50.0
+    },
+    "Ingredients": {
+      "sulfur": 5.0,
+      "iron-plate": 1.0,
+      "water": 100.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Sulfuric acid",
+    "Enabled": true
+  },
+  "rail-signal": {
+    "IsMissingRecipe": false,
+    "Name": "rail-signal",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "rail-signal": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 1.0,
+      "iron-plate": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Rail signal",
+    "Enabled": true
+  },
+  "fluid-wagon": {
+    "IsMissingRecipe": false,
+    "Name": "fluid-wagon",
+    "Time": 1.5,
+    "Category": "crafting",
+    "Results": {
+      "fluid-wagon": 1.0
+    },
+    "Ingredients": {
+      "iron-gear-wheel": 10.0,
+      "steel-plate": 16.0,
+      "pipe": 8.0,
+      "storage-tank": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": null,
+    "FriendlyName": "Fluid wagon",
+    "Enabled": true
+  },
+  "speed-module": {
+    "IsMissingRecipe": false,
+    "Name": "speed-module",
+    "Time": 15.0,
+    "Category": "crafting",
+    "Results": {
+      "speed-module": 1.0
+    },
+    "Ingredients": {
+      "advanced-circuit": 5.0,
+      "electronic-circuit": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Speed module",
+    "Enabled": true
+  },
+  "stone-wall": {
+    "IsMissingRecipe": false,
+    "Name": "stone-wall",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "stone-wall": 1.0
+    },
+    "Ingredients": {
+      "stone-brick": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Wall",
+    "Enabled": true
+  },
+  "assembling-machine-2": {
+    "IsMissingRecipe": false,
+    "Name": "assembling-machine-2",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "assembling-machine-2": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 2.0,
+      "electronic-circuit": 3.0,
+      "iron-gear-wheel": 5.0,
+      "assembling-machine-1": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Assembling machine 2",
+    "Enabled": true
+  },
+  "gun-turret": {
+    "IsMissingRecipe": false,
+    "Name": "gun-turret",
+    "Time": 8.0,
+    "Category": "crafting",
+    "Results": {
+      "gun-turret": 1.0
+    },
+    "Ingredients": {
+      "iron-gear-wheel": 10.0,
+      "copper-plate": 10.0,
+      "iron-plate": 20.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Gun turret",
+    "Enabled": true
+  },
+  "uranium-rounds-magazine": {
+    "IsMissingRecipe": false,
+    "Name": "uranium-rounds-magazine",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "uranium-rounds-magazine": 1.0
+    },
+    "Ingredients": {
+      "piercing-rounds-magazine": 1.0,
+      "uranium-238": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Uranium rounds magazine",
+    "Enabled": true
+  },
+  "kovarex-enrichment-process": {
+    "IsMissingRecipe": false,
+    "Name": "kovarex-enrichment-process",
+    "Time": 60.0,
+    "Category": "centrifuging",
+    "Results": {
+      "uranium-235": 41.0,
+      "uranium-238": 2.0
+    },
+    "Ingredients": {
+      "uranium-235": 40.0,
+      "uranium-238": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Kovarex enrichment process",
+    "Enabled": true
+  },
+  "solar-panel": {
+    "IsMissingRecipe": false,
+    "Name": "solar-panel",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "solar-panel": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 5.0,
+      "electronic-circuit": 15.0,
+      "copper-plate": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Solar panel",
+    "Enabled": true
+  },
+  "sulfur": {
+    "IsMissingRecipe": false,
+    "Name": "sulfur",
+    "Time": 1.0,
+    "Category": "chemistry",
+    "Results": {
+      "sulfur": 2.0
+    },
+    "Ingredients": {
+      "water": 30.0,
+      "petroleum-gas": 30.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Sulfur",
+    "Enabled": true
+  },
+  "offshore-pump": {
+    "IsMissingRecipe": false,
+    "Name": "offshore-pump",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "offshore-pump": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 2.0,
+      "pipe": 1.0,
+      "iron-gear-wheel": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Offshore pump",
+    "Enabled": true
+  },
+  "shotgun-shell": {
+    "IsMissingRecipe": false,
+    "Name": "shotgun-shell",
+    "Time": 3.0,
+    "Category": "crafting",
+    "Results": {
+      "shotgun-shell": 1.0
+    },
+    "Ingredients": {
+      "copper-plate": 2.0,
+      "iron-plate": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Shotgun shells",
+    "Enabled": true
+  },
+  "electric-mining-drill": {
+    "IsMissingRecipe": false,
+    "Name": "electric-mining-drill",
+    "Time": 2.0,
+    "Category": "crafting",
+    "Results": {
+      "electric-mining-drill": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 3.0,
+      "iron-gear-wheel": 5.0,
+      "iron-plate": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Electric mining drill",
+    "Enabled": true
+  },
+  "plastic-bar": {
+    "IsMissingRecipe": false,
+    "Name": "plastic-bar",
+    "Time": 1.0,
+    "Category": "chemistry",
+    "Results": {
+      "plastic-bar": 2.0
+    },
+    "Ingredients": {
+      "petroleum-gas": 20.0,
+      "coal": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Plastic bar",
+    "Enabled": true
+  },
+  "beacon": {
+    "IsMissingRecipe": false,
+    "Name": "beacon",
+    "Time": 15.0,
+    "Category": "crafting",
+    "Results": {
+      "beacon": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 20.0,
+      "advanced-circuit": 20.0,
+      "steel-plate": 10.0,
+      "copper-cable": 10.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Beacon",
+    "Enabled": true
+  },
+  "shotgun": {
+    "IsMissingRecipe": false,
+    "Name": "shotgun",
+    "Time": 10.0,
+    "Category": "crafting",
+    "Results": {
+      "shotgun": 1.0
+    },
+    "Ingredients": {
+      "iron-plate": 15.0,
+      "iron-gear-wheel": 5.0,
+      "copper-plate": 10.0,
+      "wood": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Shotgun",
+    "Enabled": true
+  },
+  "red-wire": {
+    "IsMissingRecipe": false,
+    "Name": "red-wire",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "red-wire": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 1.0,
+      "copper-cable": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Red wire",
+    "Enabled": true
+  },
+  "speed-module-3": {
+    "IsMissingRecipe": false,
+    "Name": "speed-module-3",
+    "Time": 60.0,
+    "Category": "crafting",
+    "Results": {
+      "speed-module-3": 1.0
+    },
+    "Ingredients": {
+      "speed-module-2": 5.0,
+      "advanced-circuit": 5.0,
+      "processing-unit": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Speed module 3",
+    "Enabled": true
+  },
+  "copper-cable": {
+    "IsMissingRecipe": false,
+    "Name": "copper-cable",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "copper-cable": 2.0
+    },
+    "Ingredients": {
+      "copper-plate": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Copper cable",
+    "Enabled": true
+  },
+  "railgun": {
+    "IsMissingRecipe": false,
+    "Name": "railgun",
+    "Time": 8.0,
+    "Category": "crafting",
+    "Results": {
+      "railgun": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 15.0,
+      "copper-plate": 15.0,
+      "electronic-circuit": 10.0,
+      "advanced-circuit": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Railgun",
+    "Enabled": true
+  },
+  "pipe": {
+    "IsMissingRecipe": false,
+    "Name": "pipe",
+    "Time": 0.5,
+    "Category": "crafting",
+    "Results": {
+      "pipe": 1.0
+    },
+    "Ingredients": {
+      "iron-plate": 1.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Pipe",
+    "Enabled": true
+  },
+  "effectivity-module-2": {
+    "IsMissingRecipe": false,
+    "Name": "effectivity-module-2",
+    "Time": 30.0,
+    "Category": "crafting",
+    "Results": {
+      "effectivity-module-2": 1.0
+    },
+    "Ingredients": {
+      "effectivity-module": 4.0,
+      "advanced-circuit": 5.0,
+      "processing-unit": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Efficiency module 2",
+    "Enabled": true
+  },
+  "artillery-shell": {
+    "IsMissingRecipe": false,
+    "Name": "artillery-shell",
+    "Time": 15.0,
+    "Category": "crafting",
+    "Results": {
+      "artillery-shell": 1.0
+    },
+    "Ingredients": {
+      "explosive-cannon-shell": 4.0,
+      "radar": 1.0,
+      "explosives": 8.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Artillery shell",
+    "Enabled": true
+  },
+  "car": {
+    "IsMissingRecipe": false,
+    "Name": "car",
+    "Time": 2.0,
+    "Category": "crafting",
+    "Results": {
+      "car": 1.0
+    },
+    "Ingredients": {
+      "engine-unit": 8.0,
+      "iron-plate": 20.0,
+      "steel-plate": 5.0
+    },
+    "IsCyclic": false,
+    "Icon": null,
+    "FriendlyName": "Car",
+    "Enabled": true
+  },
+  "rocket": {
+    "IsMissingRecipe": false,
+    "Name": "rocket",
+    "Time": 8.0,
+    "Category": "crafting",
+    "Results": {
+      "rocket": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 1.0,
+      "explosives": 1.0,
+      "iron-plate": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Rocket",
+    "Enabled": true
+  },
+  "light-oil-cracking": {
+    "IsMissingRecipe": false,
+    "Name": "light-oil-cracking",
+    "Time": 2.0,
+    "Category": "chemistry",
+    "Results": {
+      "petroleum-gas": 20.0
+    },
+    "Ingredients": {
+      "water": 30.0,
+      "light-oil": 30.0
+    },
+    "IsCyclic": true,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Light oil cracking to petroleum gas",
+    "Enabled": true
+  },
+  "explosive-cannon-shell": {
+    "IsMissingRecipe": false,
+    "Name": "explosive-cannon-shell",
+    "Time": 8.0,
+    "Category": "crafting",
+    "Results": {
+      "explosive-cannon-shell": 1.0
+    },
+    "Ingredients": {
+      "steel-plate": 2.0,
+      "plastic-bar": 2.0,
+      "explosives": 2.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Explosive cannon shell",
+    "Enabled": true
+  },
+  "light-armor": {
+    "IsMissingRecipe": false,
+    "Name": "light-armor",
+    "Time": 3.0,
+    "Category": "crafting",
+    "Results": {
+      "light-armor": 1.0
+    },
+    "Ingredients": {
+      "iron-plate": 40.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Light armor",
+    "Enabled": true
+  },
+  "splitter": {
+    "IsMissingRecipe": false,
+    "Name": "splitter",
+    "Time": 1.0,
+    "Category": "crafting",
+    "Results": {
+      "splitter": 1.0
+    },
+    "Ingredients": {
+      "electronic-circuit": 5.0,
+      "iron-plate": 5.0,
+      "transport-belt": 4.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Splitter",
+    "Enabled": true
+  },
+  "personal-roboport-mk2-equipment": {
+    "IsMissingRecipe": false,
+    "Name": "personal-roboport-mk2-equipment",
+    "Time": 20.0,
+    "Category": "crafting",
+    "Results": {
+      "personal-roboport-mk2-equipment": 1.0
+    },
+    "Ingredients": {
+      "personal-roboport-equipment": 5.0,
+      "processing-unit": 100.0,
+      "low-density-structure": 20.0
+    },
+    "IsCyclic": false,
+    "Icon": "System.Drawing.Bitmap",
+    "FriendlyName": "Personal roboport MK2",
+    "Enabled": true
+  }
+}
